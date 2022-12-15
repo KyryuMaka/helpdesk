@@ -5,12 +5,10 @@ function Index(){
         <>
             <div className="bg-sky-600 text-center text-white h-80 flex items-center justify-center">
                 <div>
-                    <p className="text-2xl font-bold">Chào mừng đến với HHH Helpdesk</p>
-                    <p className="text-lg">Hệ thống Hỗ trợ người dùng HungHau Holdings</p>
-                </div>
-            </div>
-            <div className="flex justify-center items-center h-52">
-                <div className="w-96">
+                    <div className="mb-5">
+                        <p className="text-2xl font-bold">Chào mừng đến với HHH Helpdesk</p>
+                        <p className="text-lg">Hệ thống Hỗ trợ người dùng HungHau Holdings</p>
+                    </div>
                     <form>   
                         <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Tìm  kiếm</label>
                         <div className="relative">
@@ -38,6 +36,11 @@ function Index(){
                     </form>
                 </div>
             </div>
+            {/* <div className="flex justify-center items-center h-52">
+                <div className="w-96">
+                    
+                </div>
+            </div> */}
             <div className="flex justify-center bg-black text-white">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 m-3 justify-items-center">
                     <div>
