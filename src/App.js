@@ -11,6 +11,7 @@ import IntegratedSystem from './page/integratedSystem';
 import Network from './page/network';
 import Email from './page/email';
 import SafeInformation from './page/safeInformation';
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           {/* <Route component={NotFound} /> */}
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </>
   );
 }
