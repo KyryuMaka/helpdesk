@@ -42,7 +42,7 @@ function Index(){
                     <div>
                         <a href=" ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
-                                viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
                                 <path strokeLinecap="round" strokeLinejoin="round" 
                                     d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 
                                         48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 
@@ -53,32 +53,72 @@ function Index(){
                                         15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 
                                         0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
                             </svg>
-                            <p>Dạy và Học</p>
+                            <p className="text-center">Dạy và Học</p>
                         </a>
                     </div>
                     <div>
                         <a href=" ">
-                            <p>Hệ thống Tích hợp</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                                viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                    d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 
+                                        10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 
+                                        0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 
+                                        0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                            </svg>
+                            <p className="text-center">Hệ thống Tích hợp</p>
                         </a>
                     </div>
                     <div>
                         <a href=" ">
-                            <p>Mạng LAN / Wifi</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                                viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                    d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 
+                                        11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 
+                                        8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 
+                                        18.22l-.53.53-.53-.53a.75.75 0 011.06 0z" />
+                            </svg>
+                            <p className="text-center">Mạng LAN / Wifi</p>
                         </a>
                     </div>
                     <div>
                         <a href=" ">
-                            <p>Thư điện tử</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                                viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 
+                                        2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 
+                                        4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 
+                                        2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 
+                                        0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                            <p className="text-center">Thư điện tử</p>
                         </a>
                     </div>
                     <div>
                         <a href=" ">
-                            <p>An toàn dữ liệu</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                                viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                    d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 
+                                        0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 
+                                        10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 
+                                        0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                            </svg>
+                            <p className="text-center">An toàn dữ liệu</p>
                         </a>
                     </div>
                     <div>
                         <a href=" ">
-                            <p>Hướng dẫn khác</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                                viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                    d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 
+                                        2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 
+                                        0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                            </svg>
+                            <p className="text-center">Hướng dẫn khác</p>
                         </a>
                     </div>
                 </div>
