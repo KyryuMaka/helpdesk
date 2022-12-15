@@ -1,10 +1,8 @@
 import React from "react";
-import Header from "../components/header";
 
 function Index(){
     return(
         <>
-            <Header />
             <div className="bg-sky-600 text-center text-white h-80 flex items-center justify-center">
                 <div>
                     <p className="text-2xl font-bold">Chào mừng đến với HHH Helpdesk</p>
@@ -14,20 +12,23 @@ function Index(){
             <div className="flex justify-center items-center h-52">
                 <div className="w-96">
                     <form>   
-                        <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Tìm  kiếm</label>
-                        <div class="relative">
-                            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Tìm  kiếm</label>
+                        <div className="relative">
+                            <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" 
+                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                </svg>
                             </div>
                             <input type="search" id="default-search" 
-                                    class="block w-full p-4 pl-10 text-sm text-gray-900 
+                                    className="block w-full p-4 pl-10 text-sm text-gray-900 
                                     border border-gray-300 rounded-lg bg-gray-50 
                                     focus:ring-blue-500 focus:border-blue-500 
                                     dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
                                     dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
                                     placeholder="Nhập vào để tìm kiếm..." required />
                             <button type="submit" 
-                                    class="text-white absolute right-2.5 bottom-2.5 bg-blue-700
+                                    className="text-white absolute right-2.5 bottom-2.5 bg-blue-700
                                     hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 
                                     font-medium rounded-lg text-sm px-4 py-2 
                                     dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -40,7 +41,7 @@ function Index(){
             <div className="flex justify-center bg-black text-white">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 m-3 justify-items-center">
                     <div>
-                        <a href=" ">
+                        <a href="/online-study">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
                                 viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
                                 <path strokeLinecap="round" strokeLinejoin="round" 
@@ -57,7 +58,7 @@ function Index(){
                         </a>
                     </div>
                     <div>
-                        <a href=" ">
+                        <a href="/integrated-system">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
                                 viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
                                 <path strokeLinecap="round" strokeLinejoin="round" 
@@ -70,7 +71,7 @@ function Index(){
                         </a>
                     </div>
                     <div>
-                        <a href=" ">
+                        <a href="/network">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
                                 viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
                                 <path strokeLinecap="round" strokeLinejoin="round" 
@@ -83,7 +84,7 @@ function Index(){
                         </a>
                     </div>
                     <div>
-                        <a href=" ">
+                        <a href="/email">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
                                 viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
                                 <path strokeLinecap="round" strokeLinejoin="round" 
@@ -97,7 +98,7 @@ function Index(){
                         </a>
                     </div>
                     <div>
-                        <a href=" ">
+                        <a href="/safe-information">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
                                 viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto my-1">
                                 <path strokeLinecap="round" strokeLinejoin="round" 
