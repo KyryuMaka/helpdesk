@@ -1,5 +1,7 @@
 import React from "react";
 
+import ListGroup from "../components/listGroup";
+
 function Index(){
     return(
         <>
@@ -41,7 +43,7 @@ function Index(){
                     
                 </div>
             </div> */}
-            <div className="flex justify-center bg-black text-white">
+            <div className="flex justify-center dark:bg-black dark:text-white">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 m-3 justify-items-center">
                     <div>
                         <a href="/online-study">
@@ -126,6 +128,10 @@ function Index(){
                         </a>
                     </div>
                 </div>
+            </div>
+
+            <div className="flex justify-center dark:bg-black dark:text-white py-5">
+                <ListGroup />
             </div>
         </>
     )

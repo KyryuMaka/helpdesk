@@ -1,10 +1,13 @@
 import React from 'react';
 import {Route, BrowserRouter, Routes} from 'react-router-dom';
 
+// Styling
 import './App.css';
 
+// Components
 import Header from './components/header'
 
+// Pages
 import Index from './page/index';
 import OnlineStudy from './page/onlineStudy';
 import IntegratedSystem from './page/integratedSystem';
