@@ -42,12 +42,12 @@ function ListGroup(){
     ]
     return(
         <>
-            <div className="overflow-x-auto relative shadow-md sm:rounded-lg w-2/3">
+            <div className="overflow-x-auto relative shadow-md bg-gray-100 dark:bg-gray-900 sm:rounded-lg w-2/3">
                 <div className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     {(sampleData.length === 0)?<></>:
                         sampleData.map((dt, index) => 
                             <div key={index} 
-                                className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 
+                                className="bg-gray-200 border-b dark:bg-gray-800 dark:border-gray-700 
                                     grid p-3 sm:p-0 m-2 justify-items-center 
                                     grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                                 <div className="py-4 px-6 md:text-right">

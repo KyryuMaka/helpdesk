@@ -5,7 +5,8 @@ import {Route, BrowserRouter, Routes} from 'react-router-dom';
 import './App.css';
 
 // Components
-import Header from './components/header'
+import Header from './components/header/index'
+import Footer from './components/footer'
 
 // Pages
 import Index from './page/index';
@@ -14,7 +15,8 @@ import IntegratedSystem from './page/integratedSystem';
 import Network from './page/network';
 import Email from './page/email';
 import SafeInformation from './page/safeInformation';
-import Footer from './components/footer'
+
+import NotFound from './page/404';
 
 function App() {
   return (
@@ -23,12 +25,14 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Index  title="Trang chủ" />} />
+          
           <Route exact path="/online-study" element={<OnlineStudy title="Trang chủ" />} />
-          <Route exact path="/integrated-system" element={<IntegratedSystem title="Trang chủ" />} />
+          <Route exact path="/computer-settings" element={<IntegratedSystem title="Cấu hình máy tính" />} />
           <Route exact path="/network" element={<Network title="Trang chủ" />} />
           <Route exact path="/email" element={<Email title="Trang chủ" />} />
           <Route exact path="/safe-information" element={<SafeInformation title="Trang chủ" />} />
-          {/* <Route component={NotFound} /> */}
+          
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
       <Footer/>
